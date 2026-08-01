@@ -1,7 +1,27 @@
 aid: simplifyber
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/simplifyber.png
 name: Simplifyber
-description: Simplifyber is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Simplifyber is a sustainable footwear and materials technology company that
+  manufactures shoe uppers and other components using a proprietary fiber-molding
+  process. By casting products directly from a liquid, cellulose-based material it
+  eliminates the spinning, weaving, and knitting steps and much of the cutting and
+  sewing of traditional shoemaking, which it says lowers the CO2 emissions of a shoe
+  upper by roughly 33x versus conventional methods. Its flagship Moon Shoe was
+  developed with the fashion brand Ganni. Simplifyber is a Techstars-backed startup.
+  It operates as a consumer and industrial manufacturer and does not currently
+  publish a public developer API, documentation, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/simplifyber/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Footwear
+- Manufacturing
+- Materials Science
+- Sustainability
+- Fashion
+- Textiles
+- Techstars
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,14 @@ maintainers:
 common:
 - type: Website
   url: https://simplifyber.com/
+- type: Support
+  url: https://simplifyber.com/contact
+- type: TermsOfService
+  url: https://simplifyber.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://simplifyber.com/privacy-policy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
